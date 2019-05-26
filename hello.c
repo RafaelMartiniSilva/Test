@@ -7,11 +7,11 @@ int main(int argn, char *argv[])
 	system("clear");
 	if (argn > 1)
 	{
-		printf("\n\t\tHello %s!\n\n", argv[1]);
+		printf("\n\t\tHello %s!\nWelcome to World!\n\n", argv[1]);
 	}
 	else
 	{
-		printf("\n\t\tHello user!\n\n");
+		printf("\n\t\tHello user!\nWelcome to World\n\n");
 	}
 
 	time_t curtime;
